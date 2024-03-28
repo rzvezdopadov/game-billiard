@@ -1,0 +1,19 @@
+.contextMenu_wrapper {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contextMenu_item {
+    background-color: azure;
+    display: flex;
+    cursor: pointer;
+    border: solid 1px #000;
+    padding: 2px;
+    width: 100%;
+    justify-content: center;
+    z-index: 10;
+}
